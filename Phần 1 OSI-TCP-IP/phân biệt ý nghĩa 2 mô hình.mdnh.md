@@ -39,6 +39,29 @@ CHỨC NĂNG CỦA 7 TẦNG TRONG MÔ HÌNH OSI
 
 * tầng phiên (session layer )
 * cho phép người dùng đến các máy tính khác nahu thiết lập duy trì và đồng bộ phiên truyền thông giữa họ với nhau
-* nghĩa là tầng phiên thiết lập các giao dịch giữa các thực thể đầu  
+* nghĩa là tầng phiên thiết lập các giao dịch giữa các thực thể đầu
+
+* tầng trình bày (presentation)
+* giải quyết các vấn đề liên quan ddeesn ngữ nghĩa và cú pháp của thông tin được truyền đi
+* biểu diễ thông tin phù hơp với thông tin người dùng và ngược lại
+* tầng trình bày có trách nhiệm chuyển đổi dữ liệu  gửi đi trên mạng từ 1 loại biểu diễn này sang biểu diễn khác
+* tầng trình bày cung cấp 1 dạng biểu diễn truyền thông chung cho phép chuyển đổi sang bộ biểu diễn chung từ biểu diễn cục bộ và ngược lại
+
+* tầng ứng dụng (appliccation layer)
+* hỗ trợ ứng dụng và các tiến trình  có liên quan đến người sự dụng cuối
+* tại lớp này chất lượng được phục vụ đối tác truyền thông xác thực người dùng quyền riêng tư hay bất kì ràng buộc nào về cú pháp dữ liệu sẽ được xem sét và quyết định
+* cung cấp các dịch vụ ứng dụng chop truyền email ,file hay các phần mềm dịch vụ khác
+* https://hdlink.vn/mo-hinh-osi-la-gi#:~:text=v%C3%A0%20ng%C6%B0%E1%BB%A3c%20l%E1%BA%A1i.-,Application%20Layer%20(t%E1%BA%A7ng%20%E1%BB%A9ng%20d%E1%BB%A5ng),-Application%20Layer%20l%C3%A0
+
+
+
+
+MÔ HÌNH TCP-IP LÀ GÌ ?
+* là bộ gaio thức trao đổi thông tin được sử dụng truyền tải và kết nối các thiết bị trong mạng internet
+* https://www.totolink.vn/article/149-mo-hinh-tcp-ip-la-gi-chuc-nang-cua-cac-tang-trong-mo-hinh-tcp-ip.html#:~:text=vi%E1%BA%BFt%20n%C3%A0y%20nh%C3%A9.-,M%C3%B4%20h%C3%ACnh%20TCP/IP%20l%C3%A0%20g%C3%AC%3F,-TCP/%20IP%20(Transmission
+
+* mô hình tcp/ip tiêu chuẩn có 4 lớp chồng lên nhau bắt đầu từ tầng thấp nhất là : Tầng vật lí (physical) > tầng mạng ( netword) > tầng giao vận (transport ) > tầng ứng dụng ( application )
+
+
 
 
