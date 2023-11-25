@@ -62,6 +62,25 @@ MÔ HÌNH TCP-IP LÀ GÌ ?
 
 * mô hình tcp/ip tiêu chuẩn có 4 lớp chồng lên nhau bắt đầu từ tầng thấp nhất là : Tầng vật lí (physical) > tầng mạng ( netword) > tầng giao vận (transport ) > tầng ứng dụng ( application )
 
+* tầng 4 tầng ứng dụng (application)
+* là lớp trên cùng của mô hình
+* tầng đảm nhận vai trò giao tiếp giữ liệu 2 máy khác nhau thông qua các dịch vụ mạng khác (duyệt web, chat, gửi email, một số giao thức trao đổi dữ liệu: SMTP, SSH, FTP,...). Dữ liệu khi đến đây sẽ được định dạng theo kiểu Byte nối Byte, cùng với đó là các thông tin định tuyến giúp xác định đường đi đúng của một gói tin.
+
+* tầng 3 tầng giao vận (transport)
+* để xử lý vấn đề giao tiếp giữa các máy chủ trong một mạng hoặc khác mạng nhau thông qua bộ định tuyến tại dây dữ liế sẽ phân đoạn bằng nhaun nhưng nhỏ hơn 64 kb cấu trúc dầy đủ của một segment lúc này là header chưa thông tin điều khiển và sau đó là dữ liệu
+* trong tầng này bao gồm 2 giao thức cốt lõi là tcp và udp
+* TCP đảm bảo chất lượng gói tin nhưng tiêu tốn thời gian khá lâu để kiểm tra đầy đủ thông tin từ thứ tự dữ liệu cho đến việc kiểm soát vấn đề tắc nghẽn lưu lượng dữ liệu
+* UDP cho thấy tốc độ nhanh hơn nhưng không đảm bảo dữ liệu gửi đi
+
+*tầng 2 tầng mạng internet
+* 1 giao thức chịu trách nhiệm truyền tải dữ liệu một cách logic trong 
+
+* https://www.totolink.vn/article/149-mo-hinh-tcp-ip-la-gi-chuc-nang-cua-cac-tang-trong-mo-hinh-tcp-ip.html#:~:text=T%E1%BA%A7ng%202%20%2D%20T%E1%BA%A7ng%20m%E1%BA%A1ng%20(Internet)%C2%A0
+
+* tầng 1 tầng vật lí (physical)
+* chịu trách nhiệm  truyền dữ liệu giữa 2 liên kết trong cùng 1 mạng
+* các gói được đóng vào khung gọi lag (frame) và được định tuyến đi dến đích được chỉ ban đầuđầu
+
 
 
 
